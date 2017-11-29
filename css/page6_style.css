@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.body{
+    background-color: #fff;
+    height: auto;
+    overflow: scroll;
+}
+
+
+/**************下面是顶部的样式******************/
+
+.top_header{
+    display: block;
+    width: 100%;
+    height: 30px;
+    min-height: 30px;
+    background-color: #003674;
+}
+
+.top_header p{
+    display: block;
+    margin-left: 10%;
+    color: white;
+}
+
+.top_header p a{
+    font: bold 12px/30px arial,sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.top_header ul{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    color: white;
+}
+
+.top_header ul li{
+    float: left;
+    color: white;
+}
+
+.top_header ul li a{
+    text-decoration: none;
+    font: bold 12px/30px arial,sans-serif;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 235px;
+}
+
+.header_logo{
+    display: block;
+    position: relative;
+    left: 9%;
+    margin-top: 10px;
+}
+
+.header_search{
+    position: absolute;
+    left: 50%;
+    top: 75px;
+}
+
+.header_search input{
+    width: 420px;
+    height: 35px;
+    border: solid #efefef 2px;
+    font-size: 10px;
+}
+
+.header_search button{
+    width: 60px;
+    height: 37px;
+    float: right;
+    margin-top: 1px;
+    border: 1px solid #ff0024;
+    background-color: #ff0024;
+    color: white;
+    font: 400 15px/37px arial,sans-serif;
+    outline: none;
+
+}
+
+.header_logo_two{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+header figure a{
+    width: 130px;
+    height: 35px;
+    position: relative;
+    top: -73px;
+    left: 35%;
+}
+
+/**************上面是顶部的样式******************/
+
+
+
+/**********************下面是nav导航条模块********************/
+
+.nav_list{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+.nav_list ul li{
+    float: left;
+    height: 40px;
+    margin-left: 85px;
+}
+
+.nav_list ul li:nth-child(6){
+    padding-top: 7px;
+    margin-left: 200px;
+}
+
+.nav_list ul li a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    font: bold 15px/30px arial,sans-serif;
+    padding-top: 5px;
+    color: white;
+}
+
+.nav_list ul li input{
+    width: 160px;
+    height: 22px;
+    border-radius: 10px 0 0 10px;
+    font: 300 13px/22px arial,sans-serif;
+    display: inline-block;
+    text-indent: 5px;
+}
+
+
+.nav_list ul li button{
+    width: 25px;
+    height: 26px;
+    border-radius: 0 13px 13px 0;
+    background-color: #393939;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    border: 1px solid #efefef;
+}
+
+.nav_list ul li button:focus{
+    outline: none;
+}
+
+/**********************上面是nav导航条模块********************/
+
+
+.section_content1{
+    width: 1200px;
+    height: 790px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_content1_left{
+    width: 850px;
+    height: 790px;
+    float: left;
+    background-color: #f0f5f8;
+    border-bottom: 5px solid #00a6f4;
+    box-sizing: border-box;
+}
+
+.section_content1_left_header{
+    width: 850px;
+    height: 40px;
+    background-color: #00a6f4;
+}
+
+.section_content1_left_header h5{
+    text-align: left;
+    color: white;
+    font: bold 15px/40px arial,sans-serif;
+    text-indent: 25px;
+}
+
+.section_content1_left figure{
+    margin-top: 40px;
+}
+
+.section_content1_left_address{
+    width: 730px;
+    height: 80px;
+    margin: 20px auto 30px auto;
+    border-top: 1px #d5d9dc dotted;
+    border-bottom: 1px #d5d9dc dotted;
+    text-align: left;
+    line-height: 30px;
+    text-indent: 20px;
+}
+
+.section_content1_left_address h2{
+    margin-top: 10px;
+    font: 600 20px/30px arial,sans-serif;
+}
+
+.section_content1_left_address p{
+    color: #666666;
+}
+
+.section_content1_left_address p span{
+    margin-left: 25px;
+    color: #666666;
+}
+
+.section_content1_left_text{
+    width: 670px;
+    height: 115px;
+    margin-left: 75px;
+    text-align: left;
+    font: 300 17px/24px arial,sans-serif;
+}
+
+
+
+
+.section1_right{
+    width: 330px;
+    height: 790px;
+    float: right;
+    background-color: #f0f5f8;
+    border-bottom: 5px solid  #00a6f4;
+    box-sizing: border-box;
+}
+
+.section_content1_right_header{
+    width: 330px;
+    height: 40px;
+    background-color: #00a6f4;
+}
+
+.section_content1_right_header h5{
+    text-align: left;
+    color: white;
+    font: bold 15px/40px arial,sans-serif;
+    text-indent: 25px;
+}
+
+.section_content1_right_content{}
+
+.section_content1_right_content figure{
+    margin: 12px auto 10px auto;
+    cursor: pointer;
+}
+
+.section_content1_right_content_team{
+    width: 292px;
+    height: 625px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section_content1_right_content_team ul{
+    position: relative;
+    top: 0;
+}
+
+.section_content1_right_content_team ul li{
+    margin-bottom: 20px;
+}
+
+
+
+.section_content2{
+    width: 1200px;
+    height: 900px;
+    margin: 30px auto auto auto;
+}
+
+.section_content2_header{
+    width: 1200px;
+    height: 50px;
+}
+
+.section_content2_content ul{
+    width: 1200px;
+    height: 820px;
+    margin-top: 30px;
+}
+
+.section_content2_content ul li{
+    width: 286px;
+    height: 400px;
+    background: url("../img/images/page6_section2_list_bg.png") no-repeat;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 20px;
+}
+
+.section_content2_content ul li:nth-child(4),.section_content2_content ul li:nth-child(8){
+    margin-right: 0;
+}
+
+.section_content2_content_list_out{
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    position: relative;
+    top: 110px;
+    border-radius: 93px;
+    border: 2px solid #FFF;
+}
+
+.section_content2_content_list_in{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    top: 17px;
+    border-radius: 75px;
+    border: 2px solid #FFF;
+}
+
+.section_content2_content_list_in h5{
+    margin-top: 45px;
+    margin-bottom: 5px;
+    text-align: center;
+    font: bold 28px/35px arial,sans-serif;
+    color: #00a6f4;
+}
+
+.section_content2_content_list_in p{
+    text-align: center;
+    font: 600 14px/20px arial,sans-serif;
+    color: #000;
+}
+
+.section_content2_content_list_in p a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+/***********************footer底部*******************************/
+
+footer{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    top: 100px;
+}
+
+.footer_img{
+    position: relative;
+    width: 100%;
+    height: 185px;
+    overflow: hidden;
+}
+
+.footer_img ul li{
+    float: left;
+    display: block;
+    width: 32.20%;
+}
+
+
+
+.footer_info{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 220px;
+    background-color: #003674;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_list{
+    display: inline-block;
+    width: 100%;
+    list-style-type: circle;
+    height: 25px;
+}
+
+.footer_list li{
+    list-style: circle;
+    display: inline;
+    margin-right: 30px;
+}
+
+
+.footer_list li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font: bold 15px/30px arial,sans-serif;
+}
+
+.footer_info p{
+    margin-top: 15px;
+    text-align: center;
+    font: 300 17px/30px arial,sans-serif;
+}
+
+
+
+/*********************下面是响应式布局的编写,有空在写*************************/
+
+
+
+/*********************响应式布局CSS样式结束*************************/

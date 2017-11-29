@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.body{
+    background-color: #fff;
+    height: auto;
+    overflow: scroll;
+}
+
+
+/**************下面是顶部的样式******************/
+
+.top_header{
+    display: block;
+    width: 100%;
+    height: 30px;
+    min-height: 30px;
+    background-color: #003674;
+}
+
+.top_header p{
+    display: block;
+    margin-left: 10%;
+    color: white;
+}
+
+.top_header p a{
+    font: bold 12px/30px arial,sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.top_header ul{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    color: white;
+}
+
+.top_header ul li{
+    float: left;
+    color: white;
+}
+
+.top_header ul li a{
+    text-decoration: none;
+    font: bold 12px/30px arial,sans-serif;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 235px;
+}
+
+.header_logo{
+    display: block;
+    position: relative;
+    left: 9%;
+    margin-top: 10px;
+}
+
+.header_search{
+    position: absolute;
+    left: 50%;
+    top: 75px;
+}
+
+.header_search input{
+    width: 420px;
+    height: 30px;
+    border: solid #efefef 2px;
+    font-size: 10px;
+}
+
+.header_search img{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+}
+
+.header_logo_two{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+header figure a{
+    width: 130px;
+    height: 35px;
+    position: relative;
+    top: -73px;
+    left: 35%;
+}
+
+/**************上面是顶部的样式******************/
+
+
+
+/**********************下面是nav导航条模块********************/
+
+.nav_list{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: #000;
+}
+
+.nav_list ul li{
+    float: left;
+    height: 40px;
+    margin-left: 85px;
+}
+
+.nav_list ul li:nth-child(6){
+    padding-top: 7px;
+    margin-left: 200px;
+}
+
+.nav_list ul li a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    font: bold 15px/30px arial,sans-serif;
+    padding-top: 5px;
+    color: white;
+}
+
+.nav_list ul li input{
+    width: 160px;
+    height: 22px;
+    border-radius: 10px 0 0 10px;
+    font: 300 13px/22px arial,sans-serif;
+    display: inline-block;
+}
+
+
+.nav_list ul li button{
+    width: 25px;
+    height: 26px;
+    border-radius: 0 13px 13px 0;
+    background-color: #393939;
+    border: 1px #ccc solid;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.nav_list ul li button:focus{
+    outline: none;
+}
+
+/**********************上面是nav导航条模块********************/
+
+.section_content1{
+    width: 1200px;
+    height: 400px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    border: 1px solid #ebebeb;
+}
+
+.section_content1_top{
+    width: 1200px;
+    height: 45px;
+    background-image: url("../img/images/page3_section1_top.png");
+}
+
+.section_content1_left{
+    position: relative;
+    padding-top: 1px;
+    width: 475px;
+    height: 354px;
+    float: left;
+}
+
+.section_content1_right{
+    width: 720px;
+    height: 354px;
+    display: inline-block;
+    float: right;
+}
+
+.section_content1_right p{
+    width: 670px;
+    height: 38px;
+    position: relative;
+    left: 30px;
+    top: 35px;
+    text-align: left;
+    font: 300 16px/30px arial,sans-serif;
+}
+
+.section_content1_right p:nth-child(4){
+    height: 20px;
+    font: 300 16px/20px arial,sans-serif;
+}
+
+.section_content1_right p:nth-child(5){
+    height: 80px;
+    font: 300 16px/28px arial,sans-serif;
+}
+
+.section_content1_right p:nth-child(6){
+    height: 25px;
+    font: 300 16px/30px arial,sans-serif;
+}
+
+.section_content1_right p:nth-child(7){
+    height: 50px;
+    font: 300 16px/25px arial,sans-serif;
+}
+
+
+
+
+.section_content2{
+    width: 1200px;
+    height: 275px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    border: 1px solid #ebebeb;
+}
+
+.section_content2_top{
+    width: 1200px;
+    height: 45px;
+    background-image: url("../img/images/page3_section2_top.png");
+}
+
+.section_content2_content{
+    margin-top: 30px;
+    width: 1200px;
+    height: 175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_content3{
+    width: 1200px;
+    height: 785px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    border: 1px solid #ebebeb;
+}
+
+.section_content3_top{
+    width: 1200px;
+    height: 45px;
+    background-image: url("../img/images/page3_section3_top.png");
+}
+
+.section_content3_content ul{
+    width: 1200px;
+}
+
+.section_content3_content ul li{
+    width: 275px;
+    height: 340px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.section_content3_content ul li figure figcaption span{
+    margin-top: 15px;
+    width: 275px;
+    height: 20px;
+    text-align: left;
+    float: left;
+    color: #02a778 ;
+    font: 300 20px/20px arial,sans-serif;
+}
+
+.section_content3_content ul li figure figcaption a{
+    width: 275px;
+    height: 20px;
+    text-decoration: none;
+    color: #000;
+    float: left;
+    font: 300 14px/20px arial,sans-serif;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************footer底部*******************************/
+
+footer{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    top: 110px;
+}
+
+.footer_img{
+    position: relative;
+    width: 100%;
+    height: 185px;
+    overflow: hidden;
+}
+
+.footer_img ul li{
+    float: left;
+    display: block;
+    width: 32.20%;
+}
+
+
+
+.footer_info{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 220px;
+    background-color: #003674;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_list{
+    display: inline-block;
+    width: 100%;
+    list-style-type: circle;
+    height: 25px;
+}
+
+.footer_list li{
+    list-style: circle;
+    display: inline;
+    margin-right: 30px;
+}
+
+
+.footer_list li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font: bold 15px/30px arial,sans-serif;
+}
+
+.footer_info p{
+    margin-top: 15px;
+    text-align: center;
+    font: 300 17px/30px arial,sans-serif;
+}
+
+
+
+/*********************下面是响应式布局的编写,有空在写*************************/
+
+
+
+/*********************响应式布局CSS样式结束*************************/
